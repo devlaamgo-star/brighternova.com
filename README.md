@@ -1,22 +1,31 @@
-# Welcome to your Lovable project
+# BrighterNova.com - Backup Guardian
+
+A comprehensive backup management platform built with modern web technologies.
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/248ecb7e-f103-41a3-9544-0f4274261875
+**URL**: https://github.com/devlaamgo-star/brighternova.com
+
+## Features
+
+- **Forgot Password Functionality**: Enhanced with 30-second cooldown timer and popup notifications
+- **Comprehensive Backup Management**: Full-featured backup solution interface
+- **Modern UI/UX**: Built with shadcn-ui and Tailwind CSS
+- **Responsive Design**: Works seamlessly across all devices
+
+## Recent Updates
+
+- ✅ Implemented forgot password resend functionality with cooldown timer
+- ✅ Added popup notification when email is resent
+- ✅ Button disable state during 30-second cooldown
+- ✅ Auto-hide popup after 5 seconds
+- ✅ Comprehensive testing and validation
 
 ## How can I edit this code?
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/248ecb7e-f103-41a3-9544-0f4274261875) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -24,10 +33,10 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/devlaamgo-star/brighternova.com.git
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd brighternova.com
 
 # Step 3: Install the necessary dependencies.
 npm i
@@ -54,20 +63,44 @@ npm run dev
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Vite** - Fast build tool and development server
+- **TypeScript** - Type-safe JavaScript
+- **React** - Modern UI library
+- **shadcn-ui** - Beautiful and accessible component library
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Router** - Client-side routing
+
+## Project Structure
+
+```
+src/
+├── components/          # Reusable UI components
+├── pages/              # Page components
+│   ├── auth/          # Authentication pages
+│   ├── jhelp/         # Help and documentation
+│   ├── legal/         # Legal pages
+│   └── setup-guides/  # Setup and configuration guides
+├── hooks/             # Custom React hooks
+└── lib/              # Utility functions
+```
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/248ecb7e-f103-41a3-9544-0f4274261875) and click on Share -> Publish.
+You can deploy this project to various platforms:
 
-## Can I connect a custom domain to my Lovable project?
+- **Vercel**: Connect your GitHub repo for automatic deployments
+- **Netlify**: Drag and drop the build folder or connect via Git
+- **GitHub Pages**: Use GitHub Actions for automated deployment
 
-Yes, you can!
+## Contributing
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/new-feature`)
+3. Make your changes
+4. Commit your changes (`git commit -am 'Add some feature'`)
+5. Push to the branch (`git push origin feature/new-feature`)
+6. Create a new Pull Request
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## License
+
+This project is private and proprietary.
