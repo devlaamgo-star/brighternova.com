@@ -1,0 +1,1291 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Functionality Test Report</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 20px; background: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .header { border-bottom: 2px solid #eee; padding-bottom: 20px; margin-bottom: 30px; }
+        .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 40px; }
+        .metric { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; }
+        .metric.success { background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%); }
+        .metric.error { background: linear-gradient(135deg, #f44336 0%, #da190b 100%); }
+        .metric h3 { margin: 0 0 10px 0; font-size: 2em; }
+        .metric p { margin: 0; opacity: 0.9; }
+        .section { margin-bottom: 40px; }
+        .section h2 { color: #333; border-bottom: 2px solid #667eea; padding-bottom: 10px; }
+        .test-grid { display: grid; gap: 15px; }
+        .test-item { background: #f8f9fa; border-left: 4px solid #667eea; padding: 15px; border-radius: 4px; }
+        .test-item.working { border-left-color: #4CAF50; background: #f1f8e9; }
+        .test-item.broken { border-left-color: #f44336; background: #fef7f7; }
+        .test-item.error { border-left-color: #ff9800; background: #fff8e1; }
+        .test-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+        .status { padding: 4px 12px; border-radius: 20px; font-size: 0.8em; font-weight: bold; text-transform: uppercase; }
+        .status.working { background: #4CAF50; color: white; }
+        .status.broken { background: #f44336; color: white; }
+        .status.error { background: #ff9800; color: white; }
+        .details { font-size: 0.9em; color: #666; margin-top: 8px; }
+        .error-list { background: #fef7f7; border: 1px solid #f44336; border-radius: 4px; padding: 15px; }
+        .error-item { margin-bottom: 8px; font-family: monospace; font-size: 0.9em; }
+        .timestamp { text-align: center; color: #999; margin-top: 30px; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🧪 Web Functionality Test Report</h1>
+            <p>Comprehensive testing of all URLs and button functionality for Novabuckups project</p>
+        </div>
+
+        <div class="summary">
+            <div class="metric">
+                <h3>80</h3>
+                <p>Total URLs Tested</p>
+            </div>
+            <div class="metric success">
+                <h3>80</h3>
+                <p>Working URLs</p>
+            </div>
+            <div class="metric error">
+                <h3>0</h3>
+                <p>Broken URLs</p>
+            </div>
+            <div class="metric success">
+                <h3>6</h3>
+                <p>Working Buttons</p>
+            </div>
+            <div class="metric error">
+                <h3>0</h3>
+                <p>Broken Buttons</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🔗 URL Route Testing Results</h2>
+            <div class="test-grid">
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/</code><br>
+                            Status Code: 200<br>
+                            Load Time: 967ms<br>
+                            
+                            Screenshot: screenshot-_.png
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/features</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/features</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1478ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/integrations</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/integrations</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1096ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/pricing</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/pricing</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1501ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/help</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/help</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1093ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/docs</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/docs</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1501ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/status</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/status</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1093ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/blog</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/blog</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1187ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/blog/all</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/blog/all</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1092ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/blog/post/sample-slug</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/blog/post/sample-slug</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1501ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/security</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/security</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1091ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/security-whitepaper</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/security-whitepaper</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1502ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/bug-bounty</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/bug-bounty</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1091ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/request-custom-documentation</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/request-custom-documentation</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1190ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/schedule-security-review</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/schedule-security-review</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1095ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/schedule-consultation</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/schedule-consultation</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1184ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/faq</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/faq</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1091ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/api-docs</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/api-docs</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1503ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/documentation</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/documentation</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1094ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/about</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/about</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1502ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/quickstart</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/quickstart</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1092ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/contact</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/contact</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1194ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/careers</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/careers</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1099ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/jobs</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/jobs</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1502ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/apply</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/apply</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1092ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/hr-contact</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/hr-contact</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1190ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/technical-support</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/technical-support</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1090ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/account-settings</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/account-settings</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1501ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/api-tester</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/api-tester</code><br>
+                            Status Code: 200<br>
+                            Load Time: 780ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/code-examples</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/code-examples</code><br>
+                            Status Code: 200<br>
+                            Load Time: 813ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/demo</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/demo</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1503ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/contact-sales</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/contact-sales</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1102ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/setup-guides/amazon-web-services</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/setup-guides/amazon-web-services</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1501ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/setup-guides/google-cloud-platform</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/setup-guides/google-cloud-platform</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1093ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/setup-guides/digitalocean</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/setup-guides/digitalocean</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1403ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/setup-guides/microsoft-azure</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/setup-guides/microsoft-azure</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1090ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/setup-guides/vultr</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/setup-guides/vultr</code><br>
+                            Status Code: 200<br>
+                            Load Time: 913ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/setup-guides/hetzner-cloud</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/setup-guides/hetzner-cloud</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1093ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/setup-guides/postgresql</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/setup-guides/postgresql</code><br>
+                            Status Code: 200<br>
+                            Load Time: 914ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/setup-guides/mongodb</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/setup-guides/mongodb</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1097ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/setup-guides/redis</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/setup-guides/redis</code><br>
+                            Status Code: 200<br>
+                            Load Time: 905ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/setup-guides/mariadb</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/setup-guides/mariadb</code><br>
+                            Status Code: 200<br>
+                            Load Time: 913ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/setup-guides/sqlite</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/setup-guides/sqlite</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1088ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/setup-guides/sftp-scp</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/setup-guides/sftp-scp</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1096ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/setup-guides/local-storage</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/setup-guides/local-storage</code><br>
+                            Status Code: 200<br>
+                            Load Time: 907ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/setup-guides/network-shares</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/setup-guides/network-shares</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1096ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/setup-guides/ftp-ftps</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/setup-guides/ftp-ftps</code><br>
+                            Status Code: 200<br>
+                            Load Time: 717ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/vote/notion-api</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/vote/notion-api</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1188ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/vote/supabase</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/vote/supabase</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1008ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/vote/vercel</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/vote/vercel</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1192ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/request-integration</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/request-integration</code><br>
+                            Status Code: 200<br>
+                            Load Time: 811ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/sub-processors</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/sub-processors</code><br>
+                            Status Code: 200<br>
+                            Load Time: 785ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/compliance-certificates</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/compliance-certificates</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1217ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/schedule-demo</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/schedule-demo</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1104ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/signin</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/signin</code><br>
+                            Status Code: 200<br>
+                            Load Time: 799ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/signup</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/signup</code><br>
+                            Status Code: 200<br>
+                            Load Time: 777ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/forgot-password</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/forgot-password</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1093ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/terms</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/terms</code><br>
+                            Status Code: 200<br>
+                            Load Time: 734ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/privacy</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/privacy</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1269ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/cookies</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/cookies</code><br>
+                            Status Code: 200<br>
+                            Load Time: 733ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/refunds</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/refunds</code><br>
+                            Status Code: 200<br>
+                            Load Time: 857ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/aup</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/aup</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1118ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/sla</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/sla</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1088ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/dpa</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/dpa</code><br>
+                            Status Code: 200<br>
+                            Load Time: 945ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/jhelp/quick-start-guide</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/jhelp/quick-start-guide</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1091ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/jhelp/creating-first-backup</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/jhelp/creating-first-backup</code><br>
+                            Status Code: 200<br>
+                            Load Time: 913ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/jhelp/understanding-backup-types</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/jhelp/understanding-backup-types</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1088ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/jhelp/setting-up-notifications</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/jhelp/setting-up-notifications</code><br>
+                            Status Code: 200<br>
+                            Load Time: 916ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/jhelp/account/managing-profile</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/jhelp/account/managing-profile</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1090ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/jhelp/account/billing-subscriptions</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/jhelp/account/billing-subscriptions</code><br>
+                            Status Code: 200<br>
+                            Load Time: 914ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/jhelp/account/team-management</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/jhelp/account/team-management</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1091ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/jhelp/account/account-security</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/jhelp/account/account-security</code><br>
+                            Status Code: 200<br>
+                            Load Time: 700ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/jhelp/scheduling-backups</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/jhelp/scheduling-backups</code><br>
+                            Status Code: 200<br>
+                            Load Time: 715ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/jhelp/retention-policies</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/jhelp/retention-policies</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1091ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/jhelp/database-integrations</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/jhelp/database-integrations</code><br>
+                            Status Code: 200<br>
+                            Load Time: 781ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/jhelp/cloud-storage-setup</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/jhelp/cloud-storage-setup</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1222ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/jhelp/webhook-configuration</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/jhelp/webhook-configuration</code><br>
+                            Status Code: 200<br>
+                            Load Time: 914ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/jhelp/api-documentation-guide</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/jhelp/api-documentation-guide</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1503ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/jhelp/backup-encryption</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/jhelp/backup-encryption</code><br>
+                            Status Code: 200<br>
+                            Load Time: 1093ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>/jhelp/storage-options</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            URL: <code>http://localhost:8082/jhelp/storage-options</code><br>
+                            Status Code: 200<br>
+                            Load Time: 909ms<br>
+                            
+                            
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🔘 Button Functionality Testing Results</h2>
+            <div class="test-grid">
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>Header - Sign In</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            Page: <code>/</code><br>
+                            Selector: <code>a[href="/signin"]</code><br>
+                            Description: Header sign in link<br>
+                            Behavior: navigated_to_http://localhost:8082/signin<br>
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>Header - Start Free Trial</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            Page: <code>/</code><br>
+                            Selector: <code>a[href="/signup"]</code><br>
+                            Description: Header signup link<br>
+                            Behavior: navigated_to_http://localhost:8082/signup<br>
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>Mobile Menu Toggle</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            Page: <code>/</code><br>
+                            Selector: <code>button svg.lucide-menu</code><br>
+                            Description: Mobile hamburger menu button<br>
+                            Behavior: button_clicked_successfully<br>
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>Hero CTA - Start Free</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            Page: <code>/</code><br>
+                            Selector: <code>Found via text analysis: Start Free</code><br>
+                            Description: Hero section button: Start Free<br>
+                            Behavior: Button found with text "Start Free", tagName: BUTTON<br>
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>Hero CTA - Start Trial</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            Page: <code>/</code><br>
+                            Selector: <code>Found via text analysis: Start Trial</code><br>
+                            Description: Hero section button: Start Trial<br>
+                            Behavior: Button found with text "Start Trial", tagName: BUTTON<br>
+                            
+                        </div>
+                    </div>
+                
+                    <div class="test-item working">
+                        <div class="test-header">
+                            <strong>Hero CTA - Start Free Trial</strong>
+                            <span class="status working">working</span>
+                        </div>
+                        <div class="details">
+                            Page: <code>/</code><br>
+                            Selector: <code>Found via text analysis: Start Free Trial</code><br>
+                            Description: Hero section button: Start Free Trial<br>
+                            Behavior: Button found with text "Start Free Trial", tagName: BUTTON<br>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+
+        
+
+        <div class="timestamp">
+            Report generated on 9/2/2025, 5:13:20 AM
+        </div>
+    </div>
+</body>
+</html>

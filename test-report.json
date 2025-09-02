@@ -1,0 +1,790 @@
+{
+  "timestamp": "2025-09-02T04:13:20.523Z",
+  "baseUrl": "http://localhost:8082",
+  "totalRoutes": 80,
+  "urlTests": [
+    {
+      "route": "/",
+      "url": "http://localhost:8082/",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 967,
+      "error": null,
+      "screenshot": "screenshot-_.png"
+    },
+    {
+      "route": "/features",
+      "url": "http://localhost:8082/features",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1478,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/integrations",
+      "url": "http://localhost:8082/integrations",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1096,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/pricing",
+      "url": "http://localhost:8082/pricing",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1501,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/help",
+      "url": "http://localhost:8082/help",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1093,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/docs",
+      "url": "http://localhost:8082/docs",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1501,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/status",
+      "url": "http://localhost:8082/status",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1093,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/blog",
+      "url": "http://localhost:8082/blog",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1187,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/blog/all",
+      "url": "http://localhost:8082/blog/all",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1092,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/blog/post/sample-slug",
+      "url": "http://localhost:8082/blog/post/sample-slug",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1501,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/security",
+      "url": "http://localhost:8082/security",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1091,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/security-whitepaper",
+      "url": "http://localhost:8082/security-whitepaper",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1502,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/bug-bounty",
+      "url": "http://localhost:8082/bug-bounty",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1091,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/request-custom-documentation",
+      "url": "http://localhost:8082/request-custom-documentation",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1190,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/schedule-security-review",
+      "url": "http://localhost:8082/schedule-security-review",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1095,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/schedule-consultation",
+      "url": "http://localhost:8082/schedule-consultation",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1184,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/faq",
+      "url": "http://localhost:8082/faq",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1091,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/api-docs",
+      "url": "http://localhost:8082/api-docs",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1503,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/documentation",
+      "url": "http://localhost:8082/documentation",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1094,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/about",
+      "url": "http://localhost:8082/about",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1502,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/quickstart",
+      "url": "http://localhost:8082/quickstart",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1092,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/contact",
+      "url": "http://localhost:8082/contact",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1194,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/careers",
+      "url": "http://localhost:8082/careers",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1099,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/jobs",
+      "url": "http://localhost:8082/jobs",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1502,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/apply",
+      "url": "http://localhost:8082/apply",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1092,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/hr-contact",
+      "url": "http://localhost:8082/hr-contact",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1190,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/technical-support",
+      "url": "http://localhost:8082/technical-support",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1090,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/account-settings",
+      "url": "http://localhost:8082/account-settings",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1501,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/api-tester",
+      "url": "http://localhost:8082/api-tester",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 780,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/code-examples",
+      "url": "http://localhost:8082/code-examples",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 813,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/demo",
+      "url": "http://localhost:8082/demo",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1503,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/contact-sales",
+      "url": "http://localhost:8082/contact-sales",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1102,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/setup-guides/amazon-web-services",
+      "url": "http://localhost:8082/setup-guides/amazon-web-services",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1501,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/setup-guides/google-cloud-platform",
+      "url": "http://localhost:8082/setup-guides/google-cloud-platform",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1093,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/setup-guides/digitalocean",
+      "url": "http://localhost:8082/setup-guides/digitalocean",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1403,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/setup-guides/microsoft-azure",
+      "url": "http://localhost:8082/setup-guides/microsoft-azure",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1090,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/setup-guides/vultr",
+      "url": "http://localhost:8082/setup-guides/vultr",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 913,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/setup-guides/hetzner-cloud",
+      "url": "http://localhost:8082/setup-guides/hetzner-cloud",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1093,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/setup-guides/postgresql",
+      "url": "http://localhost:8082/setup-guides/postgresql",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 914,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/setup-guides/mongodb",
+      "url": "http://localhost:8082/setup-guides/mongodb",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1097,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/setup-guides/redis",
+      "url": "http://localhost:8082/setup-guides/redis",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 905,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/setup-guides/mariadb",
+      "url": "http://localhost:8082/setup-guides/mariadb",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 913,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/setup-guides/sqlite",
+      "url": "http://localhost:8082/setup-guides/sqlite",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1088,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/setup-guides/sftp-scp",
+      "url": "http://localhost:8082/setup-guides/sftp-scp",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1096,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/setup-guides/local-storage",
+      "url": "http://localhost:8082/setup-guides/local-storage",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 907,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/setup-guides/network-shares",
+      "url": "http://localhost:8082/setup-guides/network-shares",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1096,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/setup-guides/ftp-ftps",
+      "url": "http://localhost:8082/setup-guides/ftp-ftps",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 717,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/vote/notion-api",
+      "url": "http://localhost:8082/vote/notion-api",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1188,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/vote/supabase",
+      "url": "http://localhost:8082/vote/supabase",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1008,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/vote/vercel",
+      "url": "http://localhost:8082/vote/vercel",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1192,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/request-integration",
+      "url": "http://localhost:8082/request-integration",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 811,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/sub-processors",
+      "url": "http://localhost:8082/sub-processors",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 785,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/compliance-certificates",
+      "url": "http://localhost:8082/compliance-certificates",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1217,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/schedule-demo",
+      "url": "http://localhost:8082/schedule-demo",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1104,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/signin",
+      "url": "http://localhost:8082/signin",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 799,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/signup",
+      "url": "http://localhost:8082/signup",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 777,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/forgot-password",
+      "url": "http://localhost:8082/forgot-password",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1093,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/terms",
+      "url": "http://localhost:8082/terms",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 734,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/privacy",
+      "url": "http://localhost:8082/privacy",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1269,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/cookies",
+      "url": "http://localhost:8082/cookies",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 733,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/refunds",
+      "url": "http://localhost:8082/refunds",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 857,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/aup",
+      "url": "http://localhost:8082/aup",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1118,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/sla",
+      "url": "http://localhost:8082/sla",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1088,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/dpa",
+      "url": "http://localhost:8082/dpa",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 945,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/jhelp/quick-start-guide",
+      "url": "http://localhost:8082/jhelp/quick-start-guide",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1091,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/jhelp/creating-first-backup",
+      "url": "http://localhost:8082/jhelp/creating-first-backup",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 913,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/jhelp/understanding-backup-types",
+      "url": "http://localhost:8082/jhelp/understanding-backup-types",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1088,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/jhelp/setting-up-notifications",
+      "url": "http://localhost:8082/jhelp/setting-up-notifications",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 916,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/jhelp/account/managing-profile",
+      "url": "http://localhost:8082/jhelp/account/managing-profile",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1090,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/jhelp/account/billing-subscriptions",
+      "url": "http://localhost:8082/jhelp/account/billing-subscriptions",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 914,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/jhelp/account/team-management",
+      "url": "http://localhost:8082/jhelp/account/team-management",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1091,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/jhelp/account/account-security",
+      "url": "http://localhost:8082/jhelp/account/account-security",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 700,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/jhelp/scheduling-backups",
+      "url": "http://localhost:8082/jhelp/scheduling-backups",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 715,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/jhelp/retention-policies",
+      "url": "http://localhost:8082/jhelp/retention-policies",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1091,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/jhelp/database-integrations",
+      "url": "http://localhost:8082/jhelp/database-integrations",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 781,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/jhelp/cloud-storage-setup",
+      "url": "http://localhost:8082/jhelp/cloud-storage-setup",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1222,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/jhelp/webhook-configuration",
+      "url": "http://localhost:8082/jhelp/webhook-configuration",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 914,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/jhelp/api-documentation-guide",
+      "url": "http://localhost:8082/jhelp/api-documentation-guide",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1503,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/jhelp/backup-encryption",
+      "url": "http://localhost:8082/jhelp/backup-encryption",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 1093,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "route": "/jhelp/storage-options",
+      "url": "http://localhost:8082/jhelp/storage-options",
+      "status": "working",
+      "statusCode": 200,
+      "loadTime": 909,
+      "error": null,
+      "screenshot": null
+    }
+  ],
+  "buttonTests": [
+    {
+      "page": "/",
+      "name": "Header - Sign In",
+      "selector": "a[href=\"/signin\"]",
+      "status": "working",
+      "error": null,
+      "actualBehavior": "navigated_to_http://localhost:8082/signin",
+      "description": "Header sign in link"
+    },
+    {
+      "page": "/",
+      "name": "Header - Start Free Trial",
+      "selector": "a[href=\"/signup\"]",
+      "status": "working",
+      "error": null,
+      "actualBehavior": "navigated_to_http://localhost:8082/signup",
+      "description": "Header signup link"
+    },
+    {
+      "page": "/",
+      "name": "Mobile Menu Toggle",
+      "selector": "button svg.lucide-menu",
+      "status": "working",
+      "error": null,
+      "actualBehavior": "button_clicked_successfully",
+      "description": "Mobile hamburger menu button"
+    },
+    {
+      "page": "/",
+      "name": "Hero CTA - Start Free",
+      "selector": "Found via text analysis: Start Free",
+      "status": "working",
+      "error": null,
+      "actualBehavior": "Button found with text \"Start Free\", tagName: BUTTON",
+      "description": "Hero section button: Start Free"
+    },
+    {
+      "page": "/",
+      "name": "Hero CTA - Start Trial",
+      "selector": "Found via text analysis: Start Trial",
+      "status": "working",
+      "error": null,
+      "actualBehavior": "Button found with text \"Start Trial\", tagName: BUTTON",
+      "description": "Hero section button: Start Trial"
+    },
+    {
+      "page": "/",
+      "name": "Hero CTA - Start Free Trial",
+      "selector": "Found via text analysis: Start Free Trial",
+      "status": "working",
+      "error": null,
+      "actualBehavior": "Button found with text \"Start Free Trial\", tagName: BUTTON",
+      "description": "Hero section button: Start Free Trial"
+    }
+  ],
+  "summary": {
+    "workingUrls": 80,
+    "brokenUrls": 0,
+    "workingButtons": 6,
+    "brokenButtons": 0,
+    "errors": []
+  }
+}
