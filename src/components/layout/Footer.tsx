@@ -97,19 +97,19 @@ const Footer = () => {
             <div>
               <h4 className="font-semibold text-foreground mb-3">Registered Address</h4>
               <p className="text-muted-foreground text-sm">
-                2 Frederick Street, Kings Cross<br />
-                London, United Kingdom<br />
-                WC1X 0ND
+                RUE SEBTA APP 8 ET. 1<br />
+                FES, Morocco<br />
+                30000 SECTEUR 0016 30000
               </p>
             </div>
             <div>
               <h4 className="font-semibold text-foreground mb-3">Contact Information</h4>
               <div className="text-muted-foreground text-sm space-y-1">
                 <p>
-                  Email: <a href="mailto:hello@brighternova.com" className="text-primary hover:underline">hello@brighternova.com</a>
+                  Email: <a href="mailto:modeetransfer@gmail.com" className="text-primary hover:underline">modeetransfer@gmail.com</a>
                 </p>
                 <p>
-                  Phone: <a href="tel:+447418639569" className="text-primary hover:underline">+44 7418 639569</a>
+                  Phone: <a href="tel:+212677965618" className="text-primary hover:underline">+212 677-965618</a>
                 </p>
                 <p className="text-xs mt-2">
                   Support response time: Within 1-2 business days

@@ -104,24 +104,24 @@ const Contact = () => {
       icon: Mail,
       title: "Email Support",
       description: "Get help with technical questions, billing, or general enquiries",
-      contact: "hello@brighternova.com",
-      href: "mailto:hello@brighternova.com",
+      contact: "modeetransfer@gmail.com",
+      href: "mailto:modeetransfer@gmail.com",
       responseTime: "1-2 business days"
     },
     {
       icon: Phone,
       title: "Phone Support",
       description: "Available for Enterprise customers and urgent issues",
-      contact: "+44 7418 639569",
-      href: "tel:+447418639569",
+      contact: "+212 677-965618",
+      href: "tel:+212677965618",
       responseTime: "Business hours (GMT)"
     },
     {
       icon: Shield,
       title: "Security Issues",
       description: "Report security vulnerabilities or concerns",
-      contact: "security@brighternova.com",
-      href: "mailto:security@brighternova.com",
+      contact: "security@pikantema.com",
+      href: "mailto:security@pikantema.com",
       responseTime: "Within 24 hours"
     }
   ];
@@ -130,7 +130,7 @@ const Contact = () => {
     {
       icon: MessageCircle,
       title: "General Support",
-      description: "Questions about features, setup, or using Novabuckups",
+      description: "Questions about features, setup, or using Pikantema",
       examples: ["How to configure backups", "Troubleshooting issues", "Feature requests"]
     },
     {
@@ -151,10 +151,10 @@ const Contact = () => {
     legalName: "BRIGHTER NOVA LTD",
     companyNumber: "16626529",
     address: {
-      street: "2 Frederick Street, Kings Cross",
-      city: "London",
-      postcode: "WC1X 0ND",
-      country: "United Kingdom"
+      street: "RUE SEBTA APP 8 ET. 1",
+      city: "FES",
+      postcode: "30000 SECTEUR 0016 30000",
+      country: "Morocco"
     },
     businessHours: {
       weekdays: "9:00 AM - 6:00 PM GMT",
