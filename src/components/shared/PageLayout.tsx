@@ -11,7 +11,7 @@ interface PageLayoutProps {
 const PageLayout = ({ children, title, description }: PageLayoutProps) => {
   // Update document title and meta description
   if (typeof document !== 'undefined') {
-    document.title = `${title} | Novabuckups - BRIGHTER NOVA LTD`;
+    document.title = `${title} | Pikantema`;
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {

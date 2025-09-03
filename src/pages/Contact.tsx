@@ -148,8 +148,6 @@ const Contact = () => {
   ];
 
   const companyInfo = {
-    legalName: "BRIGHTER NOVA LTD",
-    companyNumber: "16626529",
     address: {
       street: "RUE SEBTA APP 8 ET. 1",
       city: "FES",
@@ -389,18 +387,10 @@ const Contact = () => {
               
               <Card className="bg-background border-border/50 mb-8">
                 <CardContent className="p-8">
-                  <h3 className="text-xl font-semibold mb-4">Legal Details</h3>
+                  <h3 className="text-xl font-semibold mb-4">Address</h3>
                   <div className="space-y-3 text-muted-foreground">
                     <div>
-                      <strong className="text-foreground">Company Name:</strong><br />
-                      {companyInfo.legalName}
-                    </div>
-                    <div>
-                      <strong className="text-foreground">Company Number:</strong><br />
-                      {companyInfo.companyNumber}
-                    </div>
-                    <div>
-                      <strong className="text-foreground">Registered Address:</strong><br />
+                      <strong className="text-foreground">Office Address:</strong><br />
                       {companyInfo.address.street}<br />
                       {companyInfo.address.city}, {companyInfo.address.postcode}<br />
                       {companyInfo.address.country}

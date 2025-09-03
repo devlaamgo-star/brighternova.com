@@ -56,16 +56,14 @@ const Footer = () => {
                 <Shield className="h-6 w-6 text-primary-foreground" />
               </div>
               <span className="font-heading font-bold text-xl text-foreground">
-                Brighter Nova
+                Pikantema
               </span>
             </div>
             <p className="text-muted-foreground text-sm mb-4 text-balance">
               Professional backup automation for developers. Secure, reliable, and simple.
             </p>
             <div className="text-sm text-muted-foreground space-y-1">
-              <p className="font-medium">BRIGHTER NOVA LTD</p>
-              <p>Company No: 16626529</p>
-              <p>United Kingdom</p>
+              <p>Morocco</p>
             </div>
           </div>
 
@@ -122,12 +120,12 @@ const Footer = () => {
         {/* Bottom section */}
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-sm text-muted-foreground">
-            © {currentYear} BRIGHTER NOVA LTD. All rights reserved.
+            © {currentYear} Pikantema. All rights reserved.
           </div>
           <div className="flex items-center space-x-4 text-sm text-muted-foreground">
-            <span>Currency: GBP (£)</span>
+            <span>Currency: MAD (DH)</span>
             <span>•</span>
-            <span>Country: United Kingdom</span>
+            <span>Country: Morocco</span>
             <span>•</span>
             <a href="/cookies" className="hover:text-foreground transition-smooth">
               Cookie Settings
